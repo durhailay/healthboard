@@ -1,0 +1,61 @@
+{
+  "name": "healthboard",
+  "version": "1.0.0",
+  "description": "Leaderboard based on results from WellMe kiosk - for the lulz",
+  "main": "index.js",
+  "scripts": {
+    "flow": "flow; test $? -eq 0 -o $? -eq 2",
+    "dev": "webpack-dev-server --progress --inline --hot --config webpack.dev.js",
+    "build": "npm run flow && webpack -d --progress",
+    "prod": "npm run flow && webpack -p --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://durhailay@github.com/durhailay/healthboard.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durhailay/healthboard/issues"
+  },
+  "homepage": "https://github.com/durhailay/healthboard#readme",
+  "dependencies": {
+    "chart.js": "^2.6.0",
+    "express": "^4.15.2",
+    "firebase": "^4.1.2",
+    "immutable": "^3.8.1",
+    "path": "^0.12.7",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.24.0",
+    "babel-eslint": "^7.2.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-react-transform": "^2.0.2",
+    "babel-plugin-transform-class-properties": "^6.23.0",
+    "babel-plugin-transform-flow-strip-types": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-es2015": "^6.24.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-register": "^6.24.0",
+    "css-loader": "^0.27.3",
+    "empty": "^0.10.1",
+    "eslint": "^3.18.0",
+    "eslint-loader": "^1.7.0",
+    "eslint-plugin-react": "^6.10.3",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.11.2",
+    "flow-bin": "^0.43.1",
+    "node-sass": "^4.5.1",
+    "postcss-loader": "^1.3.3",
+    "sass-loader": "^6.0.3",
+    "style-loader": "^0.14.0",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-hot-middleware": "^2.17.1"
+  }
+}

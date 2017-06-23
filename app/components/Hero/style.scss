@@ -1,0 +1,28 @@
+.hero {
+  background-color: #93173f;
+  padding: 4rem;
+
+  .hero__content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+    .hero__image {
+      width: 20%;
+      height: auto;
+      margin: 0 auto;
+    }
+
+    .hero__title, .hero__subtitle {
+      margin: 0;
+      color: #fff;
+      font-weight: 200;
+    }
+    .hero__title {
+      margin-top: 0.8rem;
+      margin-bottom: 0.2rem;
+      font-size: 3rem;
+    }
+
+  }
+}
