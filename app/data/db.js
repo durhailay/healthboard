@@ -9,6 +9,15 @@ const data = {
         'heartRate': 66,
         'bpHigh': 140,
         'bpLow': 83
+      },
+      'entry2': {
+        'actualAge': 33,
+        'heartAge': 34,
+        'bmi': 31.3,
+        'bodyFat': 25.2,
+        'heartRate': 66,
+        'bpHigh': 140,
+        'bpLow': 83
       }
     },
     'shola': {
